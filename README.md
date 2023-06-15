@@ -1,4 +1,4 @@
-# Matplotlib-challenge
+# Matplotlib Challenge
 Module 5 for Data BootCamp
 What good is data without a good plot to tell the story?
 
