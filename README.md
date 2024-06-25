@@ -10,27 +10,35 @@ The executive team tasked me with generating all of the tables and figures neede
 ## Approach
 
 First, I inspected the dataset. It looked like this:
+
 <img width="774" alt="image" src="https://github.com/tmbiro/data_visualization/assets/26468137/b72cc015-1091-4420-a63b-544257bcdc04">
 
 I generated a summary statistics table of mean, median, variance, standard deviation, and standard error of the mean (SEM) of the tumor volume for each regimen, which resulted in:
+
 <img width="891" alt="image" src="https://github.com/tmbiro/data_visualization/assets/26468137/4143855c-85fa-4c6a-ad43-58c51c20050c">
 
 Next, I generated a bar plot showing the total number of time points for all mice tested for each drug regimen throughout the study. Here is what the plot looked like when generated with pyplot (using pandas DataFrame.plot() method produces a similar result):
+
 ![image](https://github.com/tmbiro/data_visualization/assets/26468137/283e6490-888f-44a9-9d8c-ddb106633fbb)
 
 I also generated a pie plot showing the distribution of female versus male mice using both pandas and pyplot. It looked like this using both methods:
+
 ![image](https://github.com/tmbiro/data_visualization/assets/26468137/355de9d7-9e7d-4f9a-beb2-5fc2f4933ad4)
 
 I generated a box plot that shows the distrubution of the tumor volume for each treatment group:
+
 ![image](https://github.com/tmbiro/data_visualization/assets/26468137/a87a6f5a-6e24-410a-8906-33212198814b)
 
 I then created a line plot of tumor volume vs. time point for a mouse treated with Capomulin:
+
 ![image](https://github.com/tmbiro/data_visualization/assets/26468137/4c4479f6-45c4-4ba7-ae01-bdffeb2cf75b)
 
 I generated a scatter plot of average tumor volume vs. mouse weight for the Capomulin regimen:
+
 ![image](https://github.com/tmbiro/data_visualization/assets/26468137/e268ecd7-5d1e-4e9b-807e-95502ec1b379)
 
 Lastly, I calculated the correlation coefficient and linear regression model for mouse weight and average tumor volume for the Capomulin regimen:
+
 ![image](https://github.com/tmbiro/data_visualization/assets/26468137/a68ec701-69ea-4259-98bb-aa95a2257199)
 
 ## Analysis
